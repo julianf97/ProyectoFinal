@@ -1,0 +1,15 @@
+.contenedor-general{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contenedor-sumador{
+        width: 400px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px
+    }
+}

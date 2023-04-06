@@ -1,0 +1,88 @@
+.contenedor_item_detail{
+    display: flex;
+    height: 80vh;
+    align-items: start;
+    flex-direction: row;
+    .itemImg{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contenedor-img{
+            display: flex;
+            width: auto;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 68%;
+                height: 68%;
+                object-fit: contain;
+            }
+        }
+    }
+    .itemInfo{
+        display: flex;
+        height: 100%;
+        width: 50%;
+        flex-direction: column;
+        .contenedorTitulo{
+            height: 30%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h2{
+                font-size: 2rem;
+                color: #000;
+                font-weight: 600;
+            }
+        }
+        .contenedorDescripcion{
+            height: 50%;
+            width: 100%;
+            padding: 20px;
+            .contenedorInternoDescripcion{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .contenedorPrecio{
+            height: 10%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+    .contenedorVolver{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedorItemCounts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .btnVolver{
+        margin-top: 10px;
+        background-color: black;
+        height: 30px;
+        width: 50px;
+        color: #fff;
+    }
+    .btnTerminar{
+        margin-top: 10px;
+        background-color: black;
+        height: 30px;
+        width: auto;
+        color: #fff;
+    }
+}

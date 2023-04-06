@@ -1,0 +1,111 @@
+@media only screen and (max-width:419px){
+    .seccionSecundaria{
+        text-align: center;
+        .contenedor-img{
+            img{
+                width: 60%;
+                height: 60%;
+            }
+        }
+        .titulo-secundario{
+            color: #B8B3B3;
+            margin-top: 10px;
+        }   
+    }
+} 
+@media only screen and (min-width:420px) and (max-width:767px){ 
+    .contenedor-principal-secundario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionesSecundarias{
+        width: 100%;
+    }
+    .seccionSecundaria{
+        width: 33% !important;
+        height: 50% !important;
+        padding: 8%;
+        text-align: center;
+        .titulo-secundario{
+            color: #B8B3B3;
+            margin-top: 10px;
+        }   
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){ 
+    .contenedor-principal-secundario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionesSecundarias{
+        width: 100%;
+    }
+    .seccionSecundaria{
+        width: 25% !important;
+        height: 50% !important;
+        padding: 8%;
+        text-align: center;
+        .titulo-secundario{
+            color: #B8B3B3;
+            margin-top: 10px;
+        }   
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){ 
+
+    .contenedor-principal-secundario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionesSecundarias{
+        width: 100%;
+    }
+    .seccionSecundaria{
+        width: 20% !important;
+        height: 50% !important;
+        padding: 8%;
+        text-align: center;
+        .titulo-secundario{
+            color: #B8B3B3;
+            margin-top: 10px;
+        }   
+    }
+
+} 
+
+
+@media only screen and (min-width:1201px){ 
+
+    .contenedor-principal-secundario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccionesSecundarias{
+        width: 100%;
+        margin-top: -70px;
+    }
+    .seccionSecundaria{
+        width: 16.65% !important;
+        height: 40% !important;
+        padding: 8%;
+        text-align: center;
+        .titulo-secundario{
+            color: #B8B3B3;
+            font-size: 0.8rem;
+            margin-top: 10px;
+        }   
+    }
+
+
+
+}
