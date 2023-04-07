@@ -28,17 +28,25 @@ export const Item = ( {item} ) => {
             </div>
             <div className="contenedorInfoItem">
                 <Link to={`/detail/${item.id}.`}>
-                    <h4>{item.name}</h4>
-                    <p className="disponible">DISPONIBLE</p>
-                    <p><strong>${item.price}</strong></p>
+                    <div className="contenedorTituloItem">
+                        <h4>{item.name}</h4>
+                    </div>
+                    <div className="disponible-precio">
+                        <p className="disponible">DISPONIBLE</p>
+                        <p className="precio"><strong>${item.price}</strong></p>
+                    </div>
                 </Link>
             </div>
             <div className="contenedor-btn-detail">
                 
                 {
                     isInCar(item.id)
-                        ?  <Link to="/cart" className="btnTerminar">Terminar mi compra</Link>
-                        :  <button onClick={ handleAgregar } className="btnDetail">Agregar</button>
+                        ?  <Link to="/cart"><button className="text-white bg-[#24292F] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
+                        Terminar mi compra
+                        </button></Link>
+                        :  <button onClick={ handleAgregar } className="text-white bg-[#24292F] hover:bg-[#24292F]/90 focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2">
+                        Agregar
+                        </button>
                 }
             </div>
         </div>

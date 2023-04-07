@@ -18,22 +18,60 @@
         }
     }
     .contenedorProductos{
+        width: 100%;
+        height: auto;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 80%;
-        height: auto;
+        .contenedorInternoProductos{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
         .itemInCart{
             margin-right: 20px;
+            margin-top: 20px;
             display: flex;
             flex-direction: column;
+            width: 200px;
+            height: 350px;
+            background-color: #fff;
+            box-sizing: border-box;
+            border-radius: 3px;
             .contenedorTituloItem{
-                margin-top: 20px;
+                height: 50px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                h4{
+                    color: #3D464D;
+                    font-weight: 600;
+                }
             }
             .contenedorImg{
+                height: 200px;
+                width: 100%;
+                object-fit: contain;
                 img{
-                    width: 220px;
-                    height: 220px;
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .contenedorInfo{
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                margin-top: 20px;
+                .precio{
+                    color: #3d464d;
+                    font-weight: 600;
                 }
             }
             .btnEliminar{
@@ -41,20 +79,31 @@
                 color: #fff;
             }
         }
+        .itemInCart:hover{
+            box-shadow: 0.5px 2px 1px 0.5px #dddddd; 
+        }
+        
     }
     .contenedorTotalCompra{
         width: 80%;
-        text-align: center;
-        height: auto;
         margin-top: 50px;
+        height: 200px;
+        text-align: center;
+        .totalCompra{
+            font-size: 2rem;
+            color: #3d464d;
+            font-weight: 600;
+        }
         .contenedorBotonVaciar{
-            height: 90%;
+            height: 70px;
             display: flex;
             justify-content: center;
-            align-items: end;
+            align-items: center;
             .btn-vaciar-carrito{
-                border: solid 1px red;
-                background-color: red;
+                margin-top: 10px;
+                background-color: black;
+                height: 30px;
+                width: auto;
                 color: #fff;
                 cursor: pointer;
             }

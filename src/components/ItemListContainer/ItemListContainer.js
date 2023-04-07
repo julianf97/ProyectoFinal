@@ -53,6 +53,7 @@ export const ItemListContainer = () => {
                 loading
                 ? <h2>Cargando...</h2>
                 : <ItemList items={productos}/>
+                
             }
         </div>
     )
