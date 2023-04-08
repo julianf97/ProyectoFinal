@@ -3,6 +3,7 @@
     background-color: #fff;
     box-sizing: border-box;
     border-radius: 3px;
+    outline: solid 0.5px #dddddd4b;
     .contenedorImgItem{
         height: 100%;
         width: 100%;
@@ -31,9 +32,21 @@
             }
         }
         .disponible-precio{
-            margin-top: 20px;
+            margin-top: 30px;
             .disponible{
                 color: #4bb563;
+                font-weight: 800;
+                font-size: 0.7rem;
+                letter-spacing: 0.5px;
+            }
+            .stockBajo{
+                color: #FBA010;
+                font-weight: 800;
+                font-size: 0.7rem;
+                letter-spacing: 0.5px;
+            }
+            .sinStock{
+                color: #3D464D;
                 font-weight: 800;
                 font-size: 0.7rem;
                 letter-spacing: 0.5px;
