@@ -25,7 +25,8 @@ const AppRouter = () => {
                         <Routes>
                             {/* Rutas Privadas */}
                             <Route path='*' element={<Navigate to={"/"}/>}/>
-                            <Route path='/' element={<Inicio/>}/>   
+                            <Route path='/' element={<Inicio/>}/> 
+                            <Route path='/inicio' element={<Inicio/>}/>   
                             <Route path='/contadorEventos' element={<ItemCountEventos/>}/>
                             <Route path='/productos/' element={<ItemListContainer/>}/>
                             <Route path='/cart/' element={<Cart/>}/>

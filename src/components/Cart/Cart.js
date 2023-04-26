@@ -41,7 +41,8 @@ export const Cart = () => {
                                     <small>Cantidad: {prod.cantidad}</small>
                                 </div>
                                 <div className="contenedorBtnEliminar">
-                                <button className="text-white bg-[#24292F] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium text-sm px-10 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2 my-1">Eliminar</button>
+                                    {/* Esta es la sintaxis que usamos cuando necesitamos pasar como referencia una funcion que recibe un parametro */}
+                                <button onClick={ () => eliminarDelCarrito(prod.id) } className="text-white bg-[#24292F] focus:ring-4 focus:outline-none focus:ring-[#24292F]/50 font-medium text-sm px-10 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 dark:hover:bg-[#050708]/30 mr-2 mb-2 my-1">Eliminar</button>
                                 </div>
                             </div>
                         ))

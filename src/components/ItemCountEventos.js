@@ -33,14 +33,14 @@ export const ItemCountEventos = ( {max, cantidad, setCantidad, onAdd} ) => {
         <div className="contenedor-general">
             <div className="contenedor-sumador">
                 <button onClick={handleRestar}
-                    className={ cantidad === 1 ? "botonRojo" : "boton"} 
+                    className="boton"
                     disabled={ cantidad === 1 } 
                     > - </button>
                 <span className="numeroCantidad">{cantidad}</span>
-                <button onClick={handleSumar} className={ cantidad === max ? "botonRojo" : "boton"} >+</button>
+                <button onClick={handleSumar} className="boton">+</button>
             </div>
             <div className="contenedor-agregar">
-                <button onClick={onAdd} className="boton">Agregar</button>
+                <button onClick={onAdd} className="boton">Agregar al carrito</button>
             </div>
         </div>
     )

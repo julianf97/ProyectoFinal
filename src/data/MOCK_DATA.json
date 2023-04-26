@@ -7,7 +7,9 @@
         "price": 7862,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-auricular-redragon-scylla-h901-d-nq-np-742378-mla26657116274-012018.jpg",
         "category": "auriculares",
-        "stock": 31
+        "stock": 31,
+        "marcas": "Redragon",
+        "cod": "#111159" 
     },
 
     {
@@ -17,7 +19,9 @@
         "price": 6276,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-auriculares-gamer-redragon-ares-h120-microfono-pc-d-nq-np-724768-ml.jpg",
         "category": "auriculares",
-        "stock": 0
+        "stock": 0,
+        "marcas": "Redragon",
+        "cod": "#668742" 
     },
 
     {
@@ -27,7 +31,9 @@
         "price": 14836,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-dark1-9461.jpg",
         "category": "auriculares",
-        "stock": 19
+        "stock": 19,
+        "marcas": "Redragon",
+        "cod": "#555878" 
     },
 
     {
@@ -37,7 +43,9 @@
         "price": 9196,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-814139-mla51735683008-092022-o-6404.jpg",
         "category": "auriculares",
-        "stock": 23
+        "stock": 23,
+        "marcas": "Xiaomi",
+        "cod": "#223648" 
     },
 
     {
@@ -47,7 +55,9 @@
         "price": 13794,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-866789-mla48403989595-122021-o-9302.jpg",
         "category": "auriculares",
-        "stock": 59
+        "stock": 59,
+        "marcas": "KDA",
+        "cod": "#669874" 
     },
 
     {
@@ -57,7 +67,9 @@
         "price": 36850,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1036-producto-astro-a20-auriculares-gaming-azul-blanco-para-ps5-ps4.jpg",
         "category": "auriculares",
-        "stock": 3
+        "stock": 3,
+        "marcas": "Astro",
+        "cod": "#222364" 
 
     },
 
@@ -68,7 +80,9 @@
         "price": 6138,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-2-8386.jpg",
         "category": "auriculares",
-        "stock": 87
+        "stock": 87,
+        "marcas": "T-Dagger",
+        "cod": "#998748" 
     },
     {
         "id": 8,
@@ -77,7 +91,9 @@
         "price": 7214,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-2-2446.jpg",
         "category": "auriculares",
-        "stock": 18
+        "stock": 18,
+        "marcas": "T-Dagger",
+        "cod": "#668569" 
     },
 
     {
@@ -87,7 +103,9 @@
         "price": 6167,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1-17.jpg",
         "category": "auriculares",
-        "stock": 39
+        "stock": 39,
+        "marcas": "T-Dagger",
+        "cod": "#111478" 
     },
     {
         "id": 10,
@@ -96,7 +114,9 @@
         "price": 54934,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-concepto-7067968-5506.jpg",
         "category": "auriculares",
-        "stock": 56
+        "stock": 56,
+        "marcas": "Redragon",
+        "cod": "#459332" 
     },
     {
         "id": 11,
@@ -105,7 +125,9 @@
         "price": 6904,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-639168-mla42859694926-072020-o-5879.jpg",
         "category": "auriculares",
-        "stock": 21
+        "stock": 21,
+        "marcas": "Redragon",
+        "cod": "#653986" 
     },
     {
         "id": 12,
@@ -114,7 +136,9 @@
         "price": 14660,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-71dqskhndcl-ac-sl1500-3303.jpg",
         "category": "auriculares",
-        "stock": 8
+        "stock": 8,
+        "marcas": "Redragon",
+        "cod": "#885297" 
     },
     {
         "id": 13,
@@ -123,7 +147,9 @@
         "price": 14660,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-71-kciti6vl-ac-sl1500-1-1-64.jpg",
         "category": "auriculares",
-        "stock": 9
+        "stock": 9,
+        "marcas": "Redragon",
+        "cod": "#748965" 
     },
     {
         "id": 14,
@@ -132,7 +158,9 @@
         "price": 14345,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-717gxacrkzl-ac-sx466-9215.jpg",
         "category": "auriculares",
-        "stock": 19
+        "stock": 19,
+        "marcas": "Redragon",
+        "cod": "#654753" 
     },
     {
         "id": 15,
@@ -141,7 +169,9 @@
         "price": 15856,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1645883151336-4864.jpg",
         "category": "auriculares",
-        "stock": 24
+        "stock": 24,
+        "marcas": "Redragon",
+        "cod": "#179452" 
     },
 
 
@@ -152,7 +182,9 @@
         "price": 39640,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-tailgate-3114.jpg",
         "category": "gabinete",
-        "stock": 31
+        "stock": 31,
+        "marcas": "Redragon",
+        "cod": "#876498" 
     },
     
     {
@@ -162,7 +194,9 @@
         "price": 31051,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-sideswipe-4317.jpg",
         "category": "gabinete",
-        "stock": 21
+        "stock": 21,
+        "marcas": "Redragon",
+        "cod": "#879342" 
     },
 
     {
@@ -172,7 +206,9 @@
         "price": 39797,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1-3004.jpg",
         "category": "gabinete",
-        "stock": 19
+        "stock": 19,
+        "marcas": "MSI",
+        "cod": "#694264" 
     },
 
     {
@@ -182,7 +218,9 @@
         "price": 23572,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-4549-1115.jpg",
         "category": "gabinete",
-        "stock": 23
+        "stock": 23,
+        "marcas": "Magnum",
+        "cod": "#454758" 
     },
 
     {
@@ -192,7 +230,9 @@
         "price": 82933,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-corsair-icue-465x-rgb-tempered-glass-mid-tower-atx-smart-case-tempe.jpg",
         "category": "gabinete",
-        "stock": 59
+        "stock": 59,
+        "marcas": "Corsair",
+        "cod": "#998748" 
     },
 
     {
@@ -202,7 +242,9 @@
         "price": 67571,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-933100-mla43569764717-092020-w-6130.jpg",
         "category": "gabinete",
-        "stock": 3
+        "stock": 3,
+        "marcas": "Corsair",
+        "cod": "#778745" 
 
     },
 
@@ -213,7 +255,9 @@
         "price": 57052,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-41m9mxvue2l-ac-sy580-3132.jpg",
         "category": "gabinete",
-        "stock": 87
+        "stock": 87,
+        "marcas": "Corsair",
+        "cod": "#287964" 
     },
     {
         "id": 23,
@@ -222,7 +266,9 @@
         "price": 36058,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-3-9697.jpg",
         "category": "gabinete",
-        "stock": 6
+        "stock": 6,
+        "marcas": "Corsair",
+        "cod": "#587964" 
     },
 
     {
@@ -232,7 +278,9 @@
         "price": 25292,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1-9183.jpg",
         "category": "gabinete",
-        "stock": 15
+        "stock": 15,
+        "marcas": "Aerocool",
+        "cod": "#333697" 
     },
     {
         "id": 25,
@@ -241,7 +289,9 @@
         "price": 31000,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-41qoftsifl-8027.jpg",
         "category": "gabinete",
-        "stock": 15
+        "stock": 15,
+        "marcas": "Aerocool",
+        "cod": "#218764" 
     },
     {
         "id": 26,
@@ -250,7 +300,9 @@
         "price": 25000,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1-4693.jpg",
         "category": "gabinete",
-        "stock": 15
+        "stock": 15,
+        "marcas": "Aerocool",
+        "cod": "#249756" 
     },
     {
         "id": 27,
@@ -259,7 +311,9 @@
         "price": 3000,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1556828871-mainasdihj-2240.jpg",
         "category": "gabinete",
-        "stock": 15
+        "stock": 15,
+        "marcas": "Aerocool",
+        "cod": "#879654" 
     },
     {
         "id": 28,
@@ -268,7 +322,9 @@
         "price": 158410,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1-4029.jpg",
         "category": "monitores",
-        "stock": 31
+        "stock": 31,
+        "marcas": "Philips",
+        "cod": "#575495" 
     },
     
     {
@@ -278,7 +334,9 @@
         "price": 81953,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-3-3976.jpg",
         "category": "monitores",
-        "stock": 12
+        "stock": 12,
+        "marcas": "Philips",
+        "cod": "#397485" 
     },
 
     {
@@ -288,7 +346,9 @@
         "price": 51980,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-1019-producto-monitor-19-led-philips-193v5lhsb2-55-hdmi-1-9783-474.jpg",
         "category": "monitores",
-        "stock": 48
+        "stock": 48,
+        "marcas": "Philips",
+        "cod": "#764182" 
     },
 
     {
@@ -298,7 +358,9 @@
         "price": 45000,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-d-nq-np-712820-mla32081954998-092019-o-6921.jpg",
         "category": "monitores",
-        "stock": 23
+        "stock": 23,
+        "marcas": "Lg",
+        "cod": "#368759" 
     },
 
     {
@@ -308,7 +370,9 @@
         "price": 32456,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-v226hql-640x480-2730.jpg",
         "category": "monitores",
-        "stock": 87
+        "stock": 87,
+        "marcas": "Acer",
+        "cod": "#687413" 
     },
 
     {
@@ -318,7 +382,9 @@
         "price": 126191,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-concepto-7671473-2300.jpg",
         "category": "monitores",
-        "stock": 3
+        "stock": 3,
+        "marcas": "Edge",
+        "cod": "#212142" 
 
     },
 
@@ -329,7 +395,9 @@
         "price": 185614,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-unnamed-3375.jpg",
         "category": "monitores",
-        "stock": 19
+        "stock": 19,
+        "marcas": "Samsung",
+        "cod": "#398954" 
     },
     {
         "id": 35,
@@ -338,7 +406,9 @@
         "price": 32429,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-monitor-24-asus-vg248qg-gamer-5499.jpg",
         "category": "monitores",
-        "stock": 18
+        "stock": 18,
+        "marcas": "Asus",
+        "cod": "#252484" 
     },
 
     {
@@ -348,7 +418,9 @@
         "price": 24580,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-c3-copia-1310.jpg",
         "category": "monitores",
-        "stock": 23
+        "stock": 23,
+        "marcas": "Acer",
+        "cod": "#363985" 
     },
     {
         "id": 37,
@@ -357,7 +429,9 @@
         "price": 18930,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-cm3242-1-1825.jpg",
         "category": "monitores",
-        "stock": 46
+        "stock": 46,
+        "marcas": "Philips",
+        "cod": "#412419" 
     },
     {
         "id": 38,
@@ -366,7 +440,9 @@
         "price": 38500,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-aoc-g2790vx55-2-5997.jpg",
         "category": "monitores",
-        "stock": 87
+        "stock": 87,
+        "marcas": "AOC",
+        "cod": "#898945" 
     },
     {
         "id": 39,
@@ -375,7 +451,8 @@
         "price": 420807,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-asd2-6541.jpg",
         "category": "pcarmada",
-        "stock": 3
+        "stock": 3,
+        "cod": "#332134" 
     },
     
     {
@@ -385,7 +462,8 @@
         "price": 319948,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-asd2-6541.jpg",
         "category": "pcarmada",
-        "stock": 2
+        "stock": 2,
+        "cod": "#332454" 
     },
 
     {
@@ -395,7 +473,8 @@
         "price": 324032,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-proyecto-nuevo-1-7597.jpg",
         "category": "pcarmada",
-        "stock": 9
+        "stock": 9,
+        "cod": "#778797" 
     },
 
     {
@@ -405,7 +484,8 @@
         "price": 202346,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-5600g-pc-9282.jpg",
         "category": "pcarmada",
-        "stock": 2
+        "stock": 2,
+        "cod": "#284894" 
     },
 
     {
@@ -415,7 +495,8 @@
         "price": 156227,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-5600g-pc-9282.jpg",
         "category": "pcarmada",
-        "stock": 5
+        "stock": 5,
+        "cod": "#125484" 
     },
 
     {
@@ -425,7 +506,8 @@
         "price": 132821,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-comboi3-1572.jpg",
         "category": "pcarmada",
-        "stock": 3
+        "stock": 3,
+        "cod": "#256423" 
 
     },
 
@@ -436,7 +518,8 @@
         "price": 261418,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-nuevo-proyecto-773.jpg",
         "category": "pcarmada",
-        "stock": 11
+        "stock": 11,
+        "cod": "#785436" 
     },
     {
         "id": 46,
@@ -445,7 +528,8 @@
         "price": 105161,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-i5-pc-4939.jpg",
         "category": "pcarmada",
-        "stock": 4
+        "stock": 4,
+        "cod": "#845674" 
     },
 
     {
@@ -455,7 +539,8 @@
         "price": 109510,
         "img": "https://spacegamer.com.ar/img/Public/1058-producto-pc-i3-5762.jpg",
         "category": "pcarmada",
-        "stock": 2
+        "stock": 2,
+        "cod": "#166853"
     }
 
 
