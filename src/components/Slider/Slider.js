@@ -14,7 +14,7 @@ export const Slider = () => {
         {
             url: 'https://firebasestorage.googleapis.com/v0/b/foxtienda-ee7dc.appspot.com/o/1058%2Fbannerprincipal%2F1058-banner-portafolio-tuf-gaming-2000x725-5191.jpg?alt=media&token=ed2bab60-fd49-4f87-8737-2a10edb1e3bf'
         },
-        {
+        { 
             url: ' https://firebasestorage.googleapis.com/v0/b/foxtienda-ee7dc.appspot.com/o/1058%2Fbannerprincipal%2F1058-banner-amdbanner-441.jpg?alt=media&token=ac474a3c-df15-4e40-b8e8-05b25bcc492e'
         },
         {

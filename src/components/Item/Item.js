@@ -57,12 +57,12 @@ export const Item = ( {item} ) => {
     return (
         <div className="item">
             <div className="contenedorImgItem">
-                <Link to={`/detail/${item.id}.`}>
+                <Link to={`/detail/${item.id}`}>
                     <img className="imgItem" src={item.img} alt={item.name}/>
                 </Link>
             </div>
             <div className="contenedorInfoItem">
-                <Link to={`/detail/${item.id}.`}>
+                <Link to={`/detail/${item.id}`}>
                     <div className="contenedorTituloItem">
                         <h4>{item.name}</h4>
                     </div>

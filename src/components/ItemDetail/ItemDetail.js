@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom"
+import { Link, Navigate } from "react-router-dom"
 import { ItemCountEventos } from "../ItemCountEventos"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useContext, useState } from "react";
@@ -20,8 +20,10 @@ export const ItemDetail = ( {item} ) => {
 
     const { agregarAlCarrito, isInCar } = useContext(CartContext);
 
+
     const handleZoomImg = () => {
         setZoomVisible(true);
+
     }
 
     const handleExitZoom = () => {
@@ -31,10 +33,11 @@ export const ItemDetail = ( {item} ) => {
     const handleMediosEnvio = () => {
         setMediosEnvio(true);
     }
-    
+
     const handleExitEnvio = () => {
         setMediosEnvio(false);
     }
+
 
     const handleMediosPago = () => {
         setMediosPago(true);
@@ -43,10 +46,6 @@ export const ItemDetail = ( {item} ) => {
     const handleExitPago = () => {
         setMediosPago(false);
     }
-
-    console.log(isInCar(item.id))
-
-
     
     const handleAgregar = () => {
         const newItem =  {
@@ -56,6 +55,8 @@ export const ItemDetail = ( {item} ) => {
         
         agregarAlCarrito(newItem)
     }
+
+    console.log(isInCar(item.id))
 
     return (
         <div className="contenedorGral">
@@ -280,16 +281,21 @@ export const ItemDetail = ( {item} ) => {
                     </div>
                 </div>
             </div>
-            <div className="contenedorDescripcion">
-                <div className="tituloDescripcion">
-                    <h3>Descripción</h3>
-                </div>
-                <div className="contenedorInteriorDescripcion">
-                    <div className="contenedorTextoDescripcion">
-                        <p>{item.description}</p>
+            {
+               zoomVisible || mediosEnvio || mediosPago || item.description === "Sin Descripcion"
+               ? <div></div>
+               : <div className="contenedorDescripcion">
+                    <div className="tituloDescripcion">
+                        <h3>Descripción</h3>
+                    </div>
+                    <div className="contenedorInteriorDescripcion">
+                        <div className="contenedorTextoDescripcion">
+                            <p>{item.description}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            }
+           
         </div>
 
     )
