@@ -6,7 +6,7 @@ import { createContext, useContext, useState } from "react"
 import "./contenedorCheckout.scss"
 import "../Login/login.scss"
 import { CartContext } from "../../context/CartContext/CartContext";
-import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
+import { collection, addDoc, writeBatch, updateDoc, doc, getDoc, documentId, where, query, getDocs } from "firebase/firestore";
 import { db } from "../../firebase/config";
 
 const Checkout = () => {
@@ -92,7 +92,7 @@ const Checkout = () => {
           
           Toast.fire({
             icon: 'error',
-            title: 'No hay stock'
+            title: 'Hay items Sin stock'
         })
         
     }
@@ -124,7 +124,7 @@ const Checkout = () => {
         email: ' '
     })
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault()
         console.log("Submit", values)
 
@@ -149,38 +149,44 @@ const Checkout = () => {
             fecha: new Date()
         }
 
+        const batch = writeBatch()
+
+        const ordersRef = collection(db, 'orders')
         const productosRef = collection(db, 'productos')
 
-        cart.forEach((item) => {
-            console.log(item)
+        const outOfStock = []
 
-            const docRef = doc(productosRef, item.id)
+        const itemsRef = query( productosRef, where(documentId(), "in", cart.map(prod => prod.id) ) )
 
-            getDoc(docRef)
-                .then((doc) => {
+        const response = await getDocs(itemsRef)
 
-                    if(doc.data().stock >= item.cantidad){
-                        updateDoc(docRef, {
-                            stock: doc.data().stock - item.cantidad
-                        })
-                    } else {
-                        modalErrorStock()
-                    }
+        response.docs.forEach((doc) => {
+            const item = cart.find(prod => prod.id === doc.id)
+
+            if(doc.data().stock >= item.cantidad){
+                batch.update(doc.ref, {
+                    stock: doc.data().stock - item.cantidad
                 })
+            } else {
+                outOfStock.push(item)
+            }
+        })
+
+        if ( outOfStock.length === 0){
+            await batch.commit()
+
+            addDoc(ordersRef, orden)
+                .then((doc) => {
+                    setOrderId(doc.id)
+                    vaciarCarrito()
+                })
+            
+        } else{
+            modalErrorStock()
+        }
 
             
-        });
-        
-        const ordersRef = collection(db, 'orders')
 
-
-        /* 
-        addDoc(ordersRef, orden)
-            .then((doc) => {
-                setOrderId(doc.id)
-                vaciarCarrito()
-            })
-        */
     }
 
     const handelInputChange = (e) => {

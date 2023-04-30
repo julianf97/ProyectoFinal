@@ -15,7 +15,6 @@ import { CartContext } from "../../context/CartContext/CartContext";
 export const Navbar = () => {
     
     const links = [
-        { label: "Todos los productos", value: "Todos los productos", href: ""  },
         { label: "Auriculares", value: "Auriculares", href: "auriculares"},
         { label: "Gabinete", value: "Gabinete", href: "gabinete" },
         { label: "Monitores", value: "Monitores", href: "monitores" },
