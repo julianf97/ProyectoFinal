@@ -92,7 +92,7 @@ const Checkout = () => {
           
           Toast.fire({
             icon: 'error',
-            title: 'Hay items Sin stock'
+            title: 'Hay items sin stock'
         })
         
     }
@@ -149,18 +149,21 @@ const Checkout = () => {
             fecha: new Date()
         }
 
-        const batch = writeBatch()
+        const batch = writeBatch(db)
 
-        const ordersRef = collection(db, 'orders')
+        const ordersRef = collection(db, "orders")
         const productosRef = collection(db, 'productos')
 
         const outOfStock = []
 
-        const itemsRef = query( productosRef, where(documentId(), "in", cart.map(prod => prod.id) ) )
+
+        console.log(cart.map(prod => prod.id))
+
+        const itemsRef = query( productosRef, where(documentId(), "in", cart.map(prod => prod.id)) )
 
         const response = await getDocs(itemsRef)
 
-        response.docs.forEach((doc) => {
+        response.docs.forEach((doc) =>{
             const item = cart.find(prod => prod.id === doc.id)
 
             if(doc.data().stock >= item.cantidad){
@@ -172,20 +175,21 @@ const Checkout = () => {
             }
         })
 
-        if ( outOfStock.length === 0){
+        if(outOfStock.length === 0){
             await batch.commit()
 
             addDoc(ordersRef, orden)
                 .then((doc) => {
                     setOrderId(doc.id)
                     vaciarCarrito()
-                })
-            
+            })
+
         } else{
             modalErrorStock()
         }
 
-            
+ 
+        
 
     }
 
