@@ -1,6 +1,9 @@
-.contenedor-interno-productos {
+
+ .contenedor-interno-productos {
   width: 200px;
-  height: 200px;
+  height: 200px; 
+  filter: grayscale();
   border: solid 1px red;
   background-color: #fff;
 }/*# sourceMappingURL=contenedorInternoProductos.css.map */
+

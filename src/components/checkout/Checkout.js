@@ -176,7 +176,7 @@ const Checkout = () => {
         })
 
         if(outOfStock.length === 0){
-            await batch.commit()
+                    await batch.commit()
 
             addDoc(ordersRef, orden)
                 .then((doc) => {

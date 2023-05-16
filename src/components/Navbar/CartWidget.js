@@ -14,12 +14,6 @@ export const CartWidget = () => {
 
     return(
     <div className="contenedor-user-cart"> 
-        <div className="contenedor-user-desktop">
-            <h6>{ user.email }</h6>
-            <div className="contenedorLogOut">
-                <FontAwesomeIcon onClick={ logOut } className="logOut" icon={faRightFromBracket}/>
-            </div>
-        </div>
         <div className="contenedor-cart">
             <Link className="enlace" to={'/cart/'}>
                 <FontAwesomeIcon className="carrito" icon={faCartShopping}/>
